@@ -10,12 +10,14 @@ export default class Landing extends Component {
         <div className='landing'>
           {
             Data.map((p, i) => (
-              <div key={p.id} className='project' style={{backgroundImage: `url(${p.imageSrc})`}}>
+              <div key={p.id} className='project'>
+                <div className='image' style={{backgroundImage: `url(${p.imageSrc})`}}/>
                 <div className='text'>
                   <h1>{p.name}</h1>
                   <p>{p.description}</p>
                   <div className='logo' style={{backgroundImage: `url(${p.logoSrc})`}}/>
                 </div>
+                <div className='overlay' />
               </div>
             ))
           }

@@ -92,7 +92,7 @@ const data = [
   },
   {
     "id": 14,
-    "name": "Iorn Man",
+    "name": "Iron Man",
     "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/ironman/main.png",
     "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"
