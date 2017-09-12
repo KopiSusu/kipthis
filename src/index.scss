@@ -1,0 +1,54 @@
+@import './theme/constants';
+
+body, html {
+  background: $bgColor;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(37,37,37);
+  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  overflow-y: auto;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+
+  @media only screen and (max-width: 600px) {
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  section {
+    margin-top: $navHeight + $padding*1.5;
+  }
+}
+body * {
+  box-sizing: border-box;
+}
+.image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+h1,h2,h3,h4,p {
+  margin: 0;
+  letter-spacing: 0.75px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 15px
+  }
+}
