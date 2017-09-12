@@ -6,15 +6,17 @@ import React, { Component } from 'react';
 export default class Ribbon extends Component {
   render() {
       return (
-        <nav className='ribbon'>
+        <div className='ribbon'>
           <span/>
-          <div className='left'>
-            <div className='image'/>
-          </div>
-          <div className='right'>
+          <nav>
+            <div className='left'>
+              <div className='image'/>
+            </div>
+            <div className='right'>
 
-          </div>
-        </nav>
+            </div>
+          </nav>
+        </div>
       );
   }
 }
