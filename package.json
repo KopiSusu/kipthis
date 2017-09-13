@@ -46,8 +46,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom",
-    "build:webpack": "webpack -p --progress"
+    "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
     "node-sass": "^4.5.3",

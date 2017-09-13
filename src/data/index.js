@@ -1,4 +1,4 @@
-const data = [
+export const projects = [
   {
     "id": 1,
     "name": "Slack Shopping",
@@ -99,4 +99,10 @@ const data = [
   }
 ]
 
-export default data;
+export const logoDump = [
+  'Fastcompany',
+  'Paymentsource',
+  'Time',
+  'Venturebeat',
+  'Wallstreet'
+]

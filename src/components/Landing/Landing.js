@@ -2,14 +2,28 @@
 /* eslint global-require: 0 */
 
 import React, { Component } from 'react';
-import Data from '../../data';
+import { projects, logoDump } from '../../data';
+import Fastcompany from './../../theme/svgs/Fastcompany';
+import Paymentsource from './../../theme/svgs/Paymentsource';
+import Time from './../../theme/svgs/Time';
+import Venturebeat from './../../theme/svgs/Venturebeat';
+import Wallstreet from './../../theme/svgs/Wallstreet';
+
 
 export default class Landing extends Component {
   render() {
       return (
         <div className='landing'>
+          <div className='logos'>
+            <h1>Featured in</h1>
+            <Fastcompany/>
+            <Paymentsource/>
+            <Time/>
+            <Venturebeat/>
+            <Wallstreet/>
+          </div>
           {
-            Data.map((p, i) => (
+            projects.map((p, i) => (
               <div key={p.id} className='project'>
                 <div className='image' style={{backgroundImage: `url(${p.imageSrc})`}}/>
                 <div className='text'>

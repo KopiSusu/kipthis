@@ -15,7 +15,7 @@ $patternHeight: $padding*1.5;
   & > nav {
     position: relative;
     height: $navHeight;
-    padding: 0 $padding;
+    padding: 0 $padding*10;
     width: 100%;
 
     & > div {
@@ -28,6 +28,24 @@ $patternHeight: $padding*1.5;
         background-image: url(https://storage.googleapis.com/kip-consulting/kip_logo_horizontal.svg);
         height: 100%;
         width: 100px;
+      }
+
+      a {
+        display: inline-block;
+        height: 100%;
+        line-height: $navHeight;
+        padding: 0 $padding*3;
+        text-decoration: none;
+        color: #555;
+
+        &:hover {
+          color: $primaryColor;
+          text-decoration: underline;
+        }
+      }
+
+      &.right {
+        text-align: right;
       }
     }
   }

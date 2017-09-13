@@ -2,6 +2,7 @@
 /* eslint global-require: 0 */
 
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 export default class Ribbon extends Component {
   render() {
@@ -13,7 +14,10 @@ export default class Ribbon extends Component {
               <div className='image'/>
             </div>
             <div className='right'>
-
+              <Link to="/">About</Link>
+              <Link to="/">How we help</Link>
+              <Link to="/">Blog</Link>
+              <Link to="/">Contact</Link>
             </div>
           </nav>
         </div>

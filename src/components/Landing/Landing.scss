@@ -5,6 +5,35 @@
   position: relative;
   overflow: hidden;
 
+  .logos {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    padding: $padding $padding*10;
+    background: rgba($primaryColor, 0.1);
+    @include animation(fadeInUp $materialBezier 2.7s);
+    @include transition(all 0.33s $materialBezier);
+
+    h1 {
+      display: block;
+      text-align: center;
+      margin: 0;
+      height: 50px;
+      line-height: 50px;
+      font-weight: 100;
+      font-size: 18px;
+    }
+
+    svg {
+      display: inline-block;
+      padding: 0 $padding*2;
+      width: calc(100%/5);
+      height: calc(100% - 50px);
+      fill: rgba($primaryColor, 0.8);
+    }
+  }
+
   .project {
     position: relative;
     height: 582px;
@@ -30,7 +59,7 @@
     }
 
     @media only screen and (min-width: 600px) {
-      &:nth-of-type(even) {
+      &:nth-of-type(odd) {
         text-align: right;
         .text {
           float: right;
