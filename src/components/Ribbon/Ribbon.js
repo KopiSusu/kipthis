@@ -8,7 +8,6 @@ export default class Ribbon extends Component {
   render() {
       return (
         <div className='ribbon'>
-          <span/>
           <nav>
             <div className='left'>
               <div className='image'/>

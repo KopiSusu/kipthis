@@ -4,18 +4,19 @@
 $patternHeight: $padding*1.5;
 
 .ribbon {
-  position: fixed;
+  position: absolute;
   z-index: 100;
-  height: $navHeight + $patternHeight;
+  height: $navHeight*2;
   width: 100%;
-  background: white;
+  background: transparent;
   top: 0;
+  color: white;
   border-top: 1px solid rgba($primaryColor, 0.2);
 
   & > nav {
     position: relative;
-    height: $navHeight;
-    padding: 0 $padding*10;
+    height: 100%;
+    padding: 0 $padding*12.5;
     width: 100%;
 
     & > div {
@@ -27,16 +28,17 @@ $patternHeight: $padding*1.5;
       .image {
         background-image: url(https://storage.googleapis.com/kip-consulting/kip_logo_horizontal.svg);
         height: 100%;
-        width: 100px;
+        width: 125px;
       }
 
       a {
         display: inline-block;
         height: 100%;
-        line-height: $navHeight;
+        line-height: $navHeight*2;
         padding: 0 $padding*3;
         text-decoration: none;
-        color: #555;
+        color: #fff;
+        cursor: pointer;
 
         &:hover {
           color: $primaryColor;

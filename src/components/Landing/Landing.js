@@ -14,6 +14,8 @@ export default class Landing extends Component {
   render() {
       return (
         <div className='landing'>
+          <div className='hero'>
+          </div>
           <div className='logos'>
             <h1>Featured in</h1>
             <Fastcompany/>

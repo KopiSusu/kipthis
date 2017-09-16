@@ -50,16 +50,16 @@ export const projects = [
   },
   {
     "id": 8,
-    "name": "Kip Styles App",
+    "name": "The Foodworks",
     "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
-    "imageSrc": "https://storage.googleapis.com/kip-consulting/kip_styles/main.png",
+    "imageSrc": "//storage.googleapis.com/kip-consulting/Foodworks/main.png",
     "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"
   },
   {
     "id": 9,
-    "name": "The Foodworks",
+    "name": "Kip Styles App",
     "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
-    "imageSrc": "//storage.googleapis.com/kip-consulting/Foodworks/main.png",
+    "imageSrc": "https://storage.googleapis.com/kip-consulting/kip_styles/main.png",
     "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"
   },
   {
@@ -78,20 +78,13 @@ export const projects = [
   },
   {
     "id": 12,
-    "name": "Vortex / WANT",
+    "name": "WANT",
     "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/vortex_want/main.png",
     "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"
   },
   {
     "id": 13,
-    "name": "Tidepools",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
-    "imageSrc": "//storage.googleapis.com/kip-consulting/tidepools/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"
-  },
-  {
-    "id": 14,
     "name": "Iron Man",
     "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/ironman/main.png",

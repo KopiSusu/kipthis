@@ -4,6 +4,30 @@
 .landing {
   position: relative;
   overflow: hidden;
+  background: url(https://storage.googleapis.com/sunbear/kip_scribble_pattern.png);
+  background-repeat: repeat;
+  background-size: 500px;
+
+  .hero {
+    position: relative;
+    height: 600px;
+    background: url(//www.stridenyc.com/hubfs/StrideHero-min-2-min.jpg?t=1504659021693);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.6);
+    }
+  }
 
   .logos {
     position: relative;
@@ -11,7 +35,7 @@
     width: 100%;
     overflow: hidden;
     padding: $padding $padding*10;
-    background: rgba($primaryColor, 0.1);
+    background: lighten($primaryColor, 35);
     @include animation(fadeInUp $materialBezier 2.7s);
     @include transition(all 0.33s $materialBezier);
 
@@ -41,6 +65,8 @@
     padding: $padding*5;
     overflow: hidden;
     background: #333;
+    cursor: pointer;
+    margin-bottom: 40px;
     @include animation(fadeInUp $materialBezier 2.7s);
     @include transition(all 0.33s $materialBezier);
 
@@ -53,7 +79,7 @@
     &:hover {
       .image {
         transform: scale(1.05);
-        opacity: 0.8;
+        opacity: 1;
         z-index: 0;
       }
     }

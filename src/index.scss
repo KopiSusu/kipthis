@@ -16,10 +16,6 @@ body, html {
     overflow: hidden;
     overflow-y: scroll;
   }
-
-  section {
-    margin-top: $navHeight + $padding*1.5;
-  }
 }
 body * {
   box-sizing: border-box;
