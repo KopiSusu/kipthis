@@ -2,28 +2,17 @@
 /* eslint global-require: 0 */
 
 import React, { Component } from 'react';
-import { projects, logoDump } from '../../data';
-import Fastcompany from './../../theme/svgs/Fastcompany';
-import Paymentsource from './../../theme/svgs/Paymentsource';
-import Time from './../../theme/svgs/Time';
-import Venturebeat from './../../theme/svgs/Venturebeat';
-import Wallstreet from './../../theme/svgs/Wallstreet';
+import { projects } from '../../data';
+import Logos from './Logos'
+import Hero from './Hero'
 
 
 export default class Landing extends Component {
   render() {
       return (
         <div className='landing'>
-          <div className='hero'>
-          </div>
-          <div className='logos'>
-            <h1>Featured in</h1>
-            <Fastcompany/>
-            <Paymentsource/>
-            <Time/>
-            <Venturebeat/>
-            <Wallstreet/>
-          </div>
+          <Hero/>
+          <Logos/>
           {
             projects.map((p, i) => (
               <div key={p.id} className='project'>

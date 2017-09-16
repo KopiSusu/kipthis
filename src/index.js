@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker'
 import Ribbon from './components/Ribbon';
 import Landing from './components/Landing';
 import Zoom from './components/Zoom';
+import Footer from './components/Footer';
 
 import './index.scss';
 
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="/" exact component={Landing}/>
         <Route path="/:projectName/:projectId" exact component={Zoom}/>
       </section>
+      <Route path="/" component={Footer}/>
     </div>
   </BrowserRouter>,
   document.getElementById('root')

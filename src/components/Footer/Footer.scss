@@ -1,0 +1,62 @@
+@import '../../theme/constants';
+@import '../../theme/animations';
+
+$patternHeight: $padding*1.5;
+
+.footer {
+  position: relative;
+  z-index: 100;
+  height: $navHeight*2;
+  width: 100%;
+  background: mix(white, $primaryColor);
+  padding: $padding*2;
+  border-top: 1px solid rgba($primaryColor, 0.2);
+
+  footer {
+    position: relative;
+    display: table;
+    height: 100%;
+    width: 100%;
+    & > div {
+      display: table-cell;
+      vertical-align: middle;
+      width: 33%;
+      height: 100%;
+    }
+
+    .logo {
+      background: url(//storage.googleapis.com/kip-consulting/head.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 200px;
+    }
+    .details {
+      width: calc(100% - 500px);
+    }
+    .media {
+      position: relative;
+      width: 250px;
+
+      h4 {
+        display: block;
+        color: #4a4a4a;
+        line-height: $navHeight / 2;
+        height: $navHeight / 2;
+      }
+      p {
+        color: #4a4a4a;
+      }
+      a {
+        display: inline-block;
+        height: $navHeight / 2;
+        width: $navHeight;
+        svg {
+          height: 100%;
+          width: 100%;
+          fill: #4a4a4a;
+        }
+      }
+    }
+  }
+}
