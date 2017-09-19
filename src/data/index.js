@@ -4,7 +4,86 @@ export const projects = [
     "name": "Slack Shopping",
     "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"
+    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "fields": [
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/1.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/2.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/3.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/4.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/6.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/7.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/8.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "image_section",
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/9.png"
+     },
+     {
+       "type": "text_section",
+       "description": "asdfkalsdfjalsdf"
+     },
+     {
+       "type": "quote_section",
+       "logoSrc": "asdasdf", //logo
+       "description": "adsadfasdf"  //quote text  
+     }
+    ]
   },
   {
     "id": 2,
