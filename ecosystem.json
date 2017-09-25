@@ -1,6 +1,4 @@
 {
-    "name": "c",
-    "scripts": {
-        "start": "sudo serve -s ~/kipthis/build/"
-    }
+    "name": "website",
+    "scripts": "sudo serve -s ~/kipthis/build/"
 }
