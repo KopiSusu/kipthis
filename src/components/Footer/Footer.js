@@ -15,7 +15,7 @@ export default class Footer extends Component {
             </div>
             <div className='details'>
               <h4>Kip San Francisco</h4>
-              <p> Kip@Kipthis.com <span role='img'>🤖</span> Kipthis.com</p>
+              <p> Kip@Kipthis.com <span role='img' aria-label='robot'>🤖</span> Kipthis.com</p>
             </div>
             <div className='media'>
               <h4>Follow Us</h4>

@@ -3,6 +3,9 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import Scroll from 'react-scroll';
+
+const ScrollLink = Scroll.Link;
 
 export default class Ribbon extends Component {
   
@@ -24,7 +27,7 @@ export default class Ribbon extends Component {
             <div className='right'>
               <Link to="/">Home</Link>
               <a href="//medium.com/@kipsearch">Blog</a>
-              <Link to="/">Contact</Link>
+              <ScrollLink to="contact" spy={true} smooth={true} offset={0} duration={1500}>Contact</ScrollLink>
             </div>
           </nav>
         </div>
