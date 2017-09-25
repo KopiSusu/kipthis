@@ -13,10 +13,10 @@ $patternHeight: $padding*1.5;
   color: white;
   border-top: 1px solid rgba($primaryColor, 0.2);
 
-  &.relative {
-    position: relative;
-    color: $primaryColor;
-  }
+  // &.relative {
+  //   position: relative;
+  //   color: $primaryColor;
+  // }
 
   & > nav {
     position: relative;

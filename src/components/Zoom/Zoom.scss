@@ -8,21 +8,116 @@
   .field {
     @include animation(fadeInUp $materialBezier 2.7s);
     @include transition(all 0.33s $materialBezier);
-  }
 
-  .image {
-    height: 600px;
-    width: 100%;
-  }
+    .image {
+      height: 600px;
+      width: 100%;
+    }
 
-  .text {
-    text-align: center;
-    padding: $padding*7 $padding*5;
+    .text {
+      text-align: center;
+      padding: $padding*7 $padding*5;
 
-    p {
-      font-size: 35px;
-      line-height: 50px;
+      p {
+        font-size: 35px;
+        line-height: 50px;
+      }
     }
   }
 
+  .project {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    height: 582px;
+    width: 100%;
+    padding: $padding*10 $padding*5 $padding*5;
+    overflow: hidden;
+    background: #333;
+    margin-bottom: 40px;
+    z-index: 0;
+
+    @media only screen and (max-width: 600px) {
+      background: white;
+      height: auto;
+      padding: $padding*16 $padding $padding*4;
+    }
+
+    @media only screen and (min-width: 600px) {
+      &.even {
+        text-align: right;
+        .text {
+          float: right;
+          display: block;
+          width: 50%;
+          padding: 0 $padding*2.5 0 $padding*15;
+        }
+        .logo {
+          float: right;
+        }
+      }
+    }
+
+    .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0.4;
+      transform: scale(1);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      z-index: 0;
+      @include transition(all 0.33s $materialBezier);
+      @media only screen and (max-width: 600px) {
+        height: 150px;
+        width: 100%;
+        opacity: 1;
+      }
+    }
+
+    .text {
+      display: block;
+      position: relative;
+      width: 50%;
+      padding: 0 $padding*15 0 $padding*2.5;
+      z-index: 2;
+      @media only screen and (max-width: 600px) {
+        padding: 0;
+        width: 100%;
+      }
+
+      * {
+        color: white;
+        @media only screen and (max-width: 600px) {
+          color: #555;
+        }
+      }
+
+      h1 {
+        font-size: 45px;
+        line-height: auto;
+        @media only screen and (max-width: 600px) {
+          font-size: 25px;
+          font-weight: 500;
+          text-align: center;
+          line-height: $navHeight - $padding;
+          padding: $padding 0;
+        }
+      }
+
+      p {
+        font-size: 20px;
+        @media only screen and (max-width: 600px) {
+          font-size: 14px;
+          font-weight: 100;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
