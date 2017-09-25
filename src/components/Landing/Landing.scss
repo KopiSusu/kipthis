@@ -97,6 +97,8 @@
 
   .project {
     position: relative;
+    display: block;
+    text-decoration: none;
     height: 582px;
     width: 100%;
     padding: $padding*5;

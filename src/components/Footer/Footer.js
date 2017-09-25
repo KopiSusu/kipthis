@@ -2,7 +2,6 @@
 /* eslint global-require: 0 */
 
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 import FacebookDrawn from './../../theme/svgs/FacebookDrawn';
 import EmailDrawn from './../../theme/svgs/EmailDrawn';
 import TwitterDrawn from './../../theme/svgs/TwitterDrawn';
@@ -16,7 +15,7 @@ export default class Footer extends Component {
             </div>
             <div className='details'>
               <h4>Kip San Francisco</h4>
-              <p> Kip@Kipthis.com 🤖 Kipthis.com</p>
+              <p> Kip@Kipthis.com <span role='img'>🤖</span> Kipthis.com</p>
             </div>
             <div className='media'>
               <h4>Follow Us</h4>

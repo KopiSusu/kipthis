@@ -33,6 +33,7 @@ $patternHeight: $padding*1.5;
     }
     .details {
       width: calc(100% - 500px);
+      color: #4a4a4a;
     }
     .media {
       position: relative;
@@ -50,7 +51,8 @@ $patternHeight: $padding*1.5;
       a {
         display: inline-block;
         height: $navHeight / 2;
-        width: $navHeight;
+        width: $navHeight / 2;
+        margin-right: $padding*2;
         svg {
           height: 100%;
           width: 100%;

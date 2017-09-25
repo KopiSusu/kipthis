@@ -16,7 +16,7 @@ ReactDOM.render(
       <Route path="/" component={Ribbon}/>
       <section>
         <Route path="/" exact component={Landing}/>
-        <Route path="/:projectName/:projectId" exact component={Zoom}/>
+        <Route path="/:projectName" exact component={Zoom}/>
       </section>
       <Route path="/" component={Footer}/>
     </div>

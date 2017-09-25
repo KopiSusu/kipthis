@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom'
 
 export default class Ribbon extends Component {
   render() {
+      const { location : { pathname } } = this.props;
       return (
-        <div className='ribbon'>
+        <div className={`ribbon ${pathname !== '/' ? 'relative' : null}`}>
           <nav>
             <div className='left'>
               <div className='image'/>
             </div>
             <div className='right'>
-              <Link to="/">About</Link>
-              <Link to="/">How we help</Link>
-              <Link to="/">Blog</Link>
+              <Link to="/">Home</Link>
+              <a href="//medium.com/@kipsearch">Blog</a>
               <Link to="/">Contact</Link>
             </div>
           </nav>
@@ -23,5 +23,3 @@ export default class Ribbon extends Component {
       );
   }
 }
-
-
