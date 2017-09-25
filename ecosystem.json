@@ -1,0 +1,4 @@
+{
+    "name": "website",
+    "scripts": "sudo serve -s ~/kipthis/build/"
+}
