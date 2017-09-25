@@ -1,0 +1,6 @@
+{
+    "name": "c",
+    "scripts": [
+        "start": "sudo serve -s build"
+    ]
+}
