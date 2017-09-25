@@ -1,6 +1,6 @@
 {
     "name": "c",
     "scripts": [
-        "start": "sudo serve -s build"
+        "start": "sudo serve -s ~/kipthis/build/"
     ]
 }
