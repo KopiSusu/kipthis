@@ -1,8 +1,14 @@
 @import '../../theme/constants';
+@import '../../theme/animations';
 
 .zoom {
   position: relative;
   overflow: hidden;
+
+  .field {
+    @include animation(fadeInUp $materialBezier 2.7s);
+    @include transition(all 0.33s $materialBezier);
+  }
 
   .image {
     height: 600px;
