@@ -330,7 +330,7 @@ export const projects = [
     "name": "AICP x MoMA",
     "description": "To launch AICP’s annual gala at MoMA, we created an interactive map experience that showcase where fine art and commercial advertising collide.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/AICP/main.png",
-    "logoSrc": ["https://storage.googleapis.com/kip-consulting/AICP/MOMA_logo_white.svg","https://storage.googleapis.com/kip-consulting/AICP/AICP_logo_white.svg"],
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/AICP/AICP_logo_white.svg","https://storage.googleapis.com/kip-consulting/AICP/MOMA_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -422,7 +422,7 @@ export const projects = [
     "name": "KipStyles",
     "description": "We built an app and custom search bar from ground up to help last-minute shoppers put together looks and find things they love in stores around them.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/kip_styles/main.png",
-    "logoSrc": ["https://storage.googleapis.com/kip-consulting/kip_styles/apple_logo_white.svg","https://storage.googleapis.com/kip-consulting/kip_styles/android_logo_white.svg"],
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/kip_styles/android_logo_white.svg","https://storage.googleapis.com/kip-consulting/kip_styles/apple_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
