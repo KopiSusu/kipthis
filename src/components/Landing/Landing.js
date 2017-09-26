@@ -21,7 +21,11 @@ export default class Landing extends Component {
                 <div className='text'>
                   <h1>{p.name}</h1>
                   <p>{p.description}</p>
-                  <div className='logo' style={{backgroundImage: `url(${p.logoSrc})`}}/>
+                  {
+                    p.logoSrc.map((s) => (
+                      <div className='logo' style={{backgroundImage: `url(${s})`}}/>
+                    ))
+                  }
                 </div>
                 <div className='overlay' />
               </Link>

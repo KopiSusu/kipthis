@@ -248,10 +248,10 @@
     }
 
     .logo {
-      display: block;
+      display: inline-block;
       height: 38px;
       width: 96px;
-      margin-top: $padding*2;
+      margin: $padding*2 $padding 0;
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;

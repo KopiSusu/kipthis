@@ -4,7 +4,7 @@ export const projects = [
     "name": "Manage Purchasing on Slack",
     "description": "With Slack, we imagined what the future of work would look like. To us, this meant making tedious tasks like collecting lunch orders and buying stationary a breeze.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/amazon_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/amazon_logo_white.svg","https://storage.googleapis.com/kip-consulting/slack_shopping/delivery_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -80,7 +80,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -90,7 +90,7 @@ export const projects = [
     "name": "E-Commerce on Facebook Messenger",
     "description": "With a custom emoji search and quiz, we helped users discover and shop new products on Messenger in a playful and imaginative way.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/facebook_shopping/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/amazon_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/amazon_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -134,7 +134,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -144,7 +144,7 @@ export const projects = [
     "name": "Mint",
     "description": "We brought fans, friends and fashion from Japan closer with an intimate social shopping experience that rewarded shoppers for being part of the community.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/mint_demo/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/mint_demo/muji_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/muji_logo_white.svg","https://storage.googleapis.com/kip-consulting/mint_demo/lotte_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -188,7 +188,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -198,7 +198,7 @@ export const projects = [
     "name": "ChatChat",
     "description": "An analytics dashboard that let brands manage their user engagement, ChatChat offered brands an easy tool to convert conversations into real transactions.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/chatchat/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/chatchat/chatchat_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/chatchat/chatchat_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -234,7 +234,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -244,7 +244,7 @@ export const projects = [
     "name": "Kip the Smart Penguin",
     "description": "We took complex subject like artificial intelligence and made it more friendly and approachable to general consumers with our penguin persona.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/character_design/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/character_design/kip_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/character_design/kip_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -320,7 +320,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -330,7 +330,7 @@ export const projects = [
     "name": "AICP x MoMA",
     "description": "To launch AICP’s annual gala at MoMA, we created an interactive map experience that showcase where fine art and commercial advertising collide.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/AICP/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/AICP/AICP_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/AICP/MOMA_logo_white.svg","https://storage.googleapis.com/kip-consulting/AICP/AICP_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -366,7 +366,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -376,7 +376,7 @@ export const projects = [
     "name": "The Foodworks",
     "description": "Foodworks’ mission is to empower food entrepreneurs to build quality products. We helped tell their brand story and build a web presence accessible across all digital media.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/Foodworks/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -412,7 +412,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -450,7 +450,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -460,7 +460,7 @@ export const projects = [
     "name": "Bubbli",
     "description": "We took the iconic Grand Central Terminal and reimagined how to effortlessly merge digital and physical to provide a delightful interactive map experience for all.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/Bubbli/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/Bubbli/grandcentral_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/Bubbli/grandcentral_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -504,7 +504,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -514,7 +514,7 @@ export const projects = [
     "name": "Information Builders",
     "description": "We helped IB build an analytics to help businesses measure their performance and pinpoint areas to improve.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/information_builders/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/information_builders/information_builders_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/information_builders/information_builders_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -542,7 +542,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -552,7 +552,7 @@ export const projects = [
     "name": "W.A.N.T.",
     "description": "With author McKenzie Wark, we designed and created a book cover and layout inspired by the elements of New York and launched a successful Kickstarter.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/vortex_want/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/vortex_want/kickstarter_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/kickstarter_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -636,7 +636,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
@@ -646,7 +646,7 @@ export const projects = [
     "name": "Iron Man",
     "description": "We designed award winning keyart, packaging and ad campaigns for the first Iron Man movie.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/ironman/main.png",
-    "logoSrc": "https://storage.googleapis.com/kip-consulting/ironman/marvel_logo_white.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/ironman/marvel_logo_white.svg","https://storage.googleapis.com/kip-consulting/ironman/paramount_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -674,7 +674,7 @@ export const projects = [
      },
      {
        "type": "quote_section",
-       "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg", //logo
+       "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"], //logo
        "description": "adsadfasdf"  //quote text  
      }
     ]
