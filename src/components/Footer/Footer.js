@@ -3,7 +3,6 @@
 
 import React, { Component } from 'react';
 import FacebookDrawn from './../../theme/svgs/FacebookDrawn';
-import EmailDrawn from './../../theme/svgs/EmailDrawn';
 import TwitterDrawn from './../../theme/svgs/TwitterDrawn';
 
 export default class Footer extends Component {

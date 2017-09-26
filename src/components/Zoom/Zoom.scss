@@ -2,11 +2,11 @@
 @import '../../theme/animations';
 
 .example-enter {
-  @include animation(scrollInLeft $materialBezier 2.7s);
+  @include animation(scrollInRight $materialBezier 2.7s);
 }
 
 .example-leave {
-  @include animation(scrollOutRight $materialBezier 2.7s);
+  @include animation(scrollOutLeft $materialBezier 2.7s);
 }
 
 
