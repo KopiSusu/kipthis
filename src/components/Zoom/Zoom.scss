@@ -2,11 +2,11 @@
 @import '../../theme/animations';
 
 .example-enter {
-  @include animation(scrollInRight $materialBezier 2.7s);
+  @include animation(scrollInRight $materialBezier 2.15s);
 }
 
 .example-leave {
-  @include animation(scrollOutLeft $materialBezier 2.7s);
+  @include animation(scrollOutLeft $materialBezier 2.15s);
 }
 
 
@@ -16,7 +16,7 @@
 
   .field {
     @include animation(fadeInUp $materialBezier 2.7s);
-    @include transition(all 0.33s $materialBezier);
+    @include transition(all 0.2s $materialBezier);
 
     .carosel {
       position: relative;
@@ -28,7 +28,7 @@
       }
 
       &.move {
-        @include transition(all 0.33s $materialBezier);
+        @include transition(all 0.24s $materialBezier);
       }
 
       .image {
@@ -53,7 +53,7 @@
       }
 
       p {
-        font-size: 33px;
+        font-size: 32px;
         line-height: 50px;
         font-weight: 300;
         @media only screen and (max-width: 600px) {
@@ -119,7 +119,7 @@
 
       h1 {
         font-size: 45px;
-        line-height: auto;
+        line-height: 52px;
         margin-bottom: 20px;
         @media only screen and (max-width: 600px) {
           font-size: 25px;
