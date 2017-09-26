@@ -9,13 +9,23 @@
     @include animation(fadeInUp $materialBezier 2.7s);
     @include transition(all 0.33s $materialBezier);
 
-    .image {
-      height: 600px;
-      width: 100%;
-      background-size: cover;
+    .carosel {
+      white-space: nowrap;
 
-      @media only screen and (max-width: 600px) {
-        height: 300px;
+      &.move {
+        @include animation(carosel 30s infinite);
+        @include transition(all 0.33s $materialBezier);
+      }
+      
+      .image {
+        display: inline-block;
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+
+        @media only screen and (max-width: 600px) {
+          height: 300px;
+        }
       }
     }
 
