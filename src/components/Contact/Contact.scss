@@ -27,7 +27,7 @@
 
   .button {
     width: auto;
-    margin: 0 auto;
+    margin: inherit auto;
     padding: $padding $padding*5;
     border-radius: $borderRadius;
     color: white;
