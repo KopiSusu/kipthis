@@ -169,7 +169,7 @@ export const projects = [
   },
   {
     "id": 5,
-    "name": "Kip the Helpful Penguin",
+    "name": "Kip the Smart Penguin",
     "description": "We took a complex subject like artificial intelligence and made it more friendly and approachable to general consumers with our penguin persona.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/character_design/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/character_design/kip_logo_white.svg"],
