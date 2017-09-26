@@ -15,11 +15,10 @@ export default class Footer extends Component {
             </div>
             <div className='details'>
               <h4>Kip – San Francisco</h4>
-              <p> hello@kipthis.com <span role='img' aria-label='robot'>🤖</span> kipthis.com</p>
+              <p> hello@kipthis.com <span role='img' aria-label='robot'>🤖</span></p>
             </div>
             <div className='media'>
               <h4>Follow Us</h4>
-              <a href="mailto:hello@kipthis.com?subject=Subscribe"><EmailDrawn/></a>
               <a href="//www.facebook.com/talkto.kip"><FacebookDrawn/></a>
               <a href="//twitter.com/kiptalk"><TwitterDrawn/></a>
             </div>

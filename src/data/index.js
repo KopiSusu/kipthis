@@ -9,11 +9,7 @@ export const projects = [
      {
        "type": "image_section",
        "imageSrc": [
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/1.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/2.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/3.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/4.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/1.png"
         ]
      },
      {
@@ -22,7 +18,11 @@ export const projects = [
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/3.png","https://storage.googleapis.com/kip-consulting/slack_shopping/4.png","https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"]
+       "imageSrc": [
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/3.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/4.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"
+        ]
      },
      {
        "type": "text_section",
@@ -30,7 +30,12 @@ export const projects = [
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/6.png","https://storage.googleapis.com/kip-consulting/slack_shopping/7.png","https://storage.googleapis.com/kip-consulting/slack_shopping/8.png","https://storage.googleapis.com/kip-consulting/slack_shopping/9.png"]
+       "imageSrc": [
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/6.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/7.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/8.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/9.png"
+        ]
      },
      {
        "type": "text_section",
@@ -52,7 +57,7 @@ export const projects = [
     "fields": [
      {
        "type": "image_section",
-       "imageSrc": "https://storage.googleapis.com/kip-consulting/facebook_shopping/2.png"
+       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/2.png"]
      },
      {
        "type": "text_section",
@@ -60,7 +65,7 @@ export const projects = [
      },
      {
        "type": "image_section",
-       "imageSrc": "https://storage.googleapis.com/kip-consulting/facebook_shopping/1.png"
+       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/1.png"]
      },
      {
        "type": "text_section",
@@ -83,7 +88,7 @@ export const projects = [
   },
   {
     "id": 3,
-    "name": "Mint",
+    "name": "Mint from Japan",
     "description": "We brought fans, friends, and fashion from Japan closer, with an intimate social shopping experience that rewarded shoppers for being part of the community.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/mint_demo/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/muji_logo_white.svg","https://storage.googleapis.com/kip-consulting/mint_demo/lotte_logo_white.svg"],
@@ -98,7 +103,12 @@ export const projects = [
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/2.png","https://storage.googleapis.com/kip-consulting/mint_demo/3.png","https://storage.googleapis.com/kip-consulting/mint_demo/3A.png","https://storage.googleapis.com/kip-consulting/mint_demo/4.png"]
+       "imageSrc": [
+         "https://storage.googleapis.com/kip-consulting/mint_demo/2.png",
+         "https://storage.googleapis.com/kip-consulting/mint_demo/3.png",
+         "https://storage.googleapis.com/kip-consulting/mint_demo/3A.png",
+         "https://storage.googleapis.com/kip-consulting/mint_demo/4.png"
+       ]
      },
      {
        "type": "text_section",
@@ -123,32 +133,16 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/chatchat/1.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/chatchat/2.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/chatchat/3.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/chatchat/4.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
@@ -159,7 +153,7 @@ export const projects = [
   },
   {
     "id": 5,
-    "name": "Kip the Helpful Penguin",
+    "name": "Kip the Smart Penguin",
     "description": "We took a complex subject like artificial intelligence and made it more friendly and approachable to general consumers with our penguin persona.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/character_design/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/character_design/kip_logo_white.svg"],
@@ -177,64 +171,32 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/character_design/2.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/character_design/3.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/character_design/4.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/character_design/5.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/character_design/6.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/character_design/7.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/character_design/8.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/character_design/9.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
@@ -255,32 +217,16 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/AICP/1.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/AICP/2.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/AICP/3.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/AICP/4.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
@@ -301,32 +247,16 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Foodworks/1.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Foodworks/2.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Foodworks/3.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Foodworks/4.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
@@ -347,24 +277,12 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/kip_styles/1.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/kip_styles/2.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/kip_styles/3.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
@@ -385,40 +303,20 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Bubbli/1.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Bubbli/2.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Bubbli/3.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Bubbli/4.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/Bubbli/5.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
@@ -447,16 +345,8 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/information_builders/2.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/information_builders/3.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
@@ -477,80 +367,40 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/1.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/2.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/3.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/4.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/5.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/6.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/7.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/8.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/9.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/10.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
@@ -571,24 +421,12 @@ export const projects = [
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/ironman/1.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/ironman/2.png"]
      },
      {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
        "type": "image_section",
        "imageSrc": ["https://storage.googleapis.com/kip-consulting/ironman/3.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
      },
      {
        "type": "quote_section",
