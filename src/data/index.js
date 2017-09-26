@@ -9,11 +9,7 @@ export const projects = [
      {
        "type": "image_section",
        "imageSrc": [
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/1.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/2.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/3.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/4.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/1.png"
         ]
      },
      {
@@ -22,7 +18,11 @@ export const projects = [
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/3.png","https://storage.googleapis.com/kip-consulting/slack_shopping/4.png","https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"]
+       "imageSrc": [
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/3.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/4.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"
+        ]
      },
      {
        "type": "text_section",
@@ -30,7 +30,12 @@ export const projects = [
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/6.png","https://storage.googleapis.com/kip-consulting/slack_shopping/7.png","https://storage.googleapis.com/kip-consulting/slack_shopping/8.png","https://storage.googleapis.com/kip-consulting/slack_shopping/9.png"]
+       "imageSrc": [
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/6.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/7.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/8.png",
+          "https://storage.googleapis.com/kip-consulting/slack_shopping/9.png"
+        ]
      },
      {
        "type": "text_section",
@@ -52,7 +57,7 @@ export const projects = [
     "fields": [
      {
        "type": "image_section",
-       "imageSrc": "https://storage.googleapis.com/kip-consulting/facebook_shopping/2.png"
+       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/2.png"]
      },
      {
        "type": "text_section",
@@ -60,7 +65,7 @@ export const projects = [
      },
      {
        "type": "image_section",
-       "imageSrc": "https://storage.googleapis.com/kip-consulting/facebook_shopping/1.png"
+       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/1.png"]
      },
      {
        "type": "text_section",
@@ -98,7 +103,12 @@ export const projects = [
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/2.png","https://storage.googleapis.com/kip-consulting/mint_demo/3.png","https://storage.googleapis.com/kip-consulting/mint_demo/3A.png","https://storage.googleapis.com/kip-consulting/mint_demo/4.png"]
+       "imageSrc": [
+         "https://storage.googleapis.com/kip-consulting/mint_demo/2.png",
+         "https://storage.googleapis.com/kip-consulting/mint_demo/3.png",
+         "https://storage.googleapis.com/kip-consulting/mint_demo/3A.png",
+         "https://storage.googleapis.com/kip-consulting/mint_demo/4.png"
+       ]
      },
      {
        "type": "text_section",

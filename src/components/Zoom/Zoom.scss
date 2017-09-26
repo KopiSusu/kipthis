@@ -32,10 +32,13 @@
     .text {
       text-align: center;
       padding: $padding*7 $padding*5;
+      margin-top: (-$padding*4.6);
+      margin-bottom: $padding*3;
 
       p {
-        font-size: 35px;
+        font-size: 33px;
         line-height: 50px;
+        font-weight: 300;
         @media only screen and (max-width: 600px) {
           font-size: 25px;
         }
@@ -47,7 +50,7 @@
     position: relative;
     display: table;
     text-decoration: none;
-    height: 502px;
+    height: 400px;
     width: 100%;
     padding: $padding*10 $padding*10 $padding*5;
     overflow: hidden;
@@ -90,9 +93,9 @@
       }
 
       * {
-        color: #555;
+        color: #014687;
         @media only screen and (max-width: 600px) {
-          color: #555;
+          color: #014687;
         }
       }
 
