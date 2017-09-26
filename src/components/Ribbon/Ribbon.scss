@@ -23,11 +23,19 @@ $patternHeight: $padding*1.5;
     padding: 0 $padding*8;
     width: 100%;
 
+    @media only screen and (max-width: 600px) {
+      padding: 0 $padding;
+    }
+
     & > div {
       display: inline-block;
       width: 50%;
       height: 100%;
       vertical-align: top;
+
+      @media only screen and (max-width: 600px) {
+        width: auto;
+      }
 
       .image {
         background-image: url(https://storage.googleapis.com/kip-consulting/kip_logo_horizontal.svg);
@@ -44,6 +52,11 @@ $patternHeight: $padding*1.5;
         color: inherit;
         cursor: pointer;
 
+        @media only screen and (max-width: 600px) {
+          padding: 0 $padding;
+          font-size: 15px;
+        }
+
         &:hover {
           color: $primaryColor;
           text-decoration: underline;
@@ -52,6 +65,7 @@ $patternHeight: $padding*1.5;
 
       &.right {
         text-align: right;
+        float: right;
       }
     }
   }

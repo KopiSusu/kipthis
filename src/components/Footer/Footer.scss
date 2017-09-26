@@ -12,11 +12,16 @@ $patternHeight: $padding*1.5;
   padding: $padding*2;
   border-top: 1px solid rgba($primaryColor, 0.2);
 
+  @media only screen and (max-width: 600px) {
+    padding: $padding;
+  }
+
   footer {
     position: relative;
     display: table;
     height: 100%;
     width: 100%;
+
     & > div {
       display: table-cell;
       vertical-align: middle;
@@ -30,20 +35,45 @@ $patternHeight: $padding*1.5;
       background-repeat: no-repeat;
       background-position: center;
       width: 200px;
+      @media only screen and (max-width: 600px) {
+        width: 50px;
+        padding: 0;
+      }
     }
     .details {
       width: calc(100% - 500px);
       color: #4a4a4a;
+      @media only screen and (max-width: 600px) {
+        width: calc(100% - 280px);
+        padding: 0 $padding*2;
+
+        h4 {
+          font-size: 15px;
+        }
+
+        p {
+          font-size: 13px;
+        }
+      }
     }
     .media {
       position: relative;
       width: 250px;
+
+      @media only screen and (max-width: 600px) {
+        width: 110px;
+        padding: 0 $padding;
+      }
 
       h4 {
         display: block;
         color: #4a4a4a;
         line-height: $navHeight / 2;
         height: $navHeight / 2;
+
+        @media only screen and (max-width: 600px) {
+          font-size: 15px;
+        }
       }
       p {
         color: #4a4a4a;
@@ -53,6 +83,10 @@ $patternHeight: $padding*1.5;
         height: $navHeight / 2;
         width: $navHeight / 2;
         margin-right: $padding*2;
+        @media only screen and (max-width: 600px) {
+          width: 25px;
+          margin-right: 5px;
+        }
         svg {
           height: 100%;
           width: 100%;
