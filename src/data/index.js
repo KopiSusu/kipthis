@@ -2,7 +2,7 @@ export const projects = [
   {
     "id": 1,
     "name": "Manage Purchasing on Slack",
-    "description": "With Slack, we imagined what the future of work would look like. To us, this meant making tedious tasks like collecting lunch orders and buying stationary a breeze.",
+    "description": "With Slack, we imagined what the future of work would look like. We made tedious tasks like collecting lunch orders and buying office supplies a breeze.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/amazon_logo_white.svg","https://storage.googleapis.com/kip-consulting/slack_shopping/delivery_logo_white.svg"],
     "fields": [
@@ -18,75 +18,23 @@ export const projects = [
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "With a chatbot that focused solely e-procurement, we helped over 100,000 teams purchase over items and services from Amazon, BloomThat, YPO, Delivery.com and more, generating revenue and up 15% new sales conversion for our partners."
      },
      {
        "type": "image_section",
-       "imageSrc": [
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/1.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/4.png",
-        "https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"
-        ]
+       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/3.png","https://storage.googleapis.com/kip-consulting/slack_shopping/4.png","https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"]
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "Websites were tailored only for individual orders, so we challenged ourselves to come up with a unique solution that worked for multiple people in a group ordering at the same time."
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/3.png"]
+       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/6.png","https://storage.googleapis.com/kip-consulting/slack_shopping/7.png","https://storage.googleapis.com/kip-consulting/slack_shopping/8.png","https://storage.googleapis.com/kip-consulting/slack_shopping/9.png"]
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/4.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/5.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/6.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/7.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/8.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/slack_shopping/9.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "The result was a versatile order management system on Slack that helped teams easily purchase in large groups."
      },
      {
        "type": "quote_section",
@@ -104,43 +52,27 @@ export const projects = [
     "fields": [
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/1.png"]
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/facebook_shopping/2.png"
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "With a custom emoji search and quiz, we helped users discover and shop new products on Facebook Messenger in a playful and imaginative way."
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/2.png"]
+       "imageSrc": "https://storage.googleapis.com/kip-consulting/facebook_shopping/1.png"
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "Using artificial intelligence, customers could snap images of items they owned to find similar items by brand, color, type and purchase it directly through Messenger."
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/3.png"]
+       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/3.png","https://storage.googleapis.com/kip-consulting/facebook_shopping/4.png","https://storage.googleapis.com/kip-consulting/facebook_shopping/5.png"]
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/4.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/facebook_shopping/5.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "Filters are boring, so customers could select a series of questions based on their original search to find the best matched item. By continuing the conversation, we could understand what customers valued as the most important value when making a purchase decision.   "
      },
      {
        "type": "quote_section",
@@ -152,7 +84,7 @@ export const projects = [
   {
     "id": 3,
     "name": "Mint",
-    "description": "We brought fans, friends and fashion from Japan closer with an intimate social shopping experience that rewarded shoppers for being part of the community.",
+    "description": "We brought fans, friends, and fashion from Japan closer, with an intimate social shopping experience that rewarded shoppers for being part of the community.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/mint_demo/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/muji_logo_white.svg","https://storage.googleapis.com/kip-consulting/mint_demo/lotte_logo_white.svg"],
     "fields": [
@@ -162,39 +94,15 @@ export const projects = [
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "The web app made it easy for users to share shopping cart links and purchase items overseas in groups to save on shipping and processing fees. "
      },
      {
        "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/2.png"]
+       "imageSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/2.png","https://storage.googleapis.com/kip-consulting/mint_demo/3.png","https://storage.googleapis.com/kip-consulting/mint_demo/3A.png","https://storage.googleapis.com/kip-consulting/mint_demo/4.png"]
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/3.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/4.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
-     },
-     {
-       "type": "image_section",
-       "imageSrc": ["https://storage.googleapis.com/kip-consulting/mint_demo/5.png"]
-     },
-     {
-       "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "With brands like Punyus, Muji and MILKboy, we helped them reach a North American audience and establish a new market."
      },
      {
        "type": "quote_section",
@@ -206,7 +114,7 @@ export const projects = [
   {
     "id": 4,
     "name": "ChatChat",
-    "description": "An analytics dashboard that let brands manage their user engagement, ChatChat offered brands an easy tool to convert conversations into real transactions.",
+    "description": "ChatChat offers brands an easy tool to convert conversations into real transactions with our analytics dashboard that lets brands manage their user engagement.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/chatchat/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/chatchat/chatchat_logo_white.svg"],
     "fields": [
@@ -251,8 +159,8 @@ export const projects = [
   },
   {
     "id": 5,
-    "name": "Kip the Smart Penguin",
-    "description": "We took complex subject like artificial intelligence and made it more friendly and approachable to general consumers with our penguin persona.",
+    "name": "Kip the Helpful Penguin",
+    "description": "We took a complex subject like artificial intelligence and made it more friendly and approachable to general consumers with our penguin persona.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/character_design/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/character_design/kip_logo_white.svg"],
     "fields": [
@@ -262,7 +170,7 @@ export const projects = [
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "By crafting a strong brand voice and identity, Kip is the first gender neutral A.I that started selling small goods like pins, stickers which was later licensed out to a children’s manufacturer."
      },
      {
        "type": "image_section",
@@ -384,7 +292,7 @@ export const projects = [
   {
     "id": 7,
     "name": "The Foodworks",
-    "description": "Foodworks’ mission is to empower food entrepreneurs to build quality products. We helped tell their brand story and build a web presence accessible across all digital media.",
+    "description": "We helped Foodworks build a web presence accessible across all digital media, to tell their brand story of empowering food entrepreneurs.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/Foodworks/main.png",
     "logoSrc": ["//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg"],
     "fields": [
@@ -430,7 +338,7 @@ export const projects = [
   {
     "id": 8,
     "name": "KipStyles",
-    "description": "We built an app and custom search bar from ground up to help last-minute shoppers put together looks and find things they love in stores around them.",
+    "description": "We built an app and custom search bar to help last-minute shoppers find things they love in stores around them.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/kip_styles/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/kip_styles/android_logo_white.svg","https://storage.googleapis.com/kip-consulting/kip_styles/apple_logo_white.svg"],
     "fields": [
@@ -468,7 +376,7 @@ export const projects = [
   {
     "id": 9,
     "name": "Bubbli",
-    "description": "We took the iconic Grand Central Terminal and reimagined how to effortlessly merge digital and physical to provide a delightful interactive map experience for all.",
+    "description": "We built a delightful interactive map experience for the iconic Grand Central Terminal, and reimagined how to effortlessly merge digital and physical.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/Bubbli/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/Bubbli/grandcentral_logo_white.svg"],
     "fields": [
@@ -522,7 +430,7 @@ export const projects = [
   {
     "id": 10,
     "name": "Information Builders",
-    "description": "We helped IB build an analytics to help businesses measure their performance and pinpoint areas to improve.",
+    "description": "We worked with Information Builders to create an analytics dashboard that helps businesses measure their performance and pinpoint areas to improve.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/information_builders/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/information_builders/information_builders_logo_white.svg"],
     "fields": [
@@ -532,7 +440,7 @@ export const projects = [
      },
      {
        "type": "text_section",
-       "description": "asdfkalsdfjalsdf"
+       "description": "Information Builders’s Performance Management Framework (PMF) provides businesses of all sizes robust business-analytics tools that improve the way you run your department and helped pinpoint and isolate strategic weaknesses within your company structure."
      },
      {
        "type": "image_section",
@@ -560,7 +468,7 @@ export const projects = [
   {
     "id": 11,
     "name": "W.A.N.T.",
-    "description": "With author McKenzie Wark, we designed and created a book cover and layout inspired by the elements of New York and launched a successful Kickstarter.",
+    "description": "With author McKenzie Wark, we designed and created a book inspired by the elements of New York and launched a successful Kickstarter.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/vortex_want/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/kickstarter_logo_white.svg"],
     "fields": [
@@ -654,9 +562,9 @@ export const projects = [
   {
     "id": 12,
     "name": "Iron Man",
-    "description": "We designed award winning keyart, packaging and ad campaigns for the first Iron Man movie.",
+    "description": "With BLT Communications, we designed award winning key art, packaging and ad campaigns for the first Iron Man movie.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/ironman/main.png",
-    "logoSrc": ["https://storage.googleapis.com/kip-consulting/ironman/marvel_logo_white.svg","https://storage.googleapis.com/kip-consulting/ironman/paramount_logo_white.svg"],
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/ironman/paramount_logo_white.svg","https://storage.googleapis.com/kip-consulting/ironman/marvel_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",

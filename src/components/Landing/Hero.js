@@ -15,7 +15,7 @@ export default class Logos extends Component {
           <div className='text'>
             <h1>Level Up Your <span className='blue'>Social</span> Presence</h1>
             <p>We are social, onsite, collaborative creative developer consultancy that helps build a competitive social advantage for your business.</p>
-            <ScrollLink activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={1500}><button>Learn How</button></ScrollLink>
+            <ScrollLink activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={1500}><button>Contact Kip</button></ScrollLink>
           </div>
         </div>
       );
