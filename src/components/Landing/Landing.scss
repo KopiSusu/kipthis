@@ -151,7 +151,7 @@
       padding: 0 $padding*2;
       width: calc(100%/5);
       height: calc(100% - 75px);
-      fill: rgba($primaryColor, 0.8);
+      fill: rgba(0, 0, 0, 0.5);;
 
       @media only screen and (max-width: 600px) {
         width: 150px;
@@ -167,7 +167,7 @@
     position: relative;
     display: block;
     text-decoration: none;
-    height: 400px;
+    height: 458px;
     width: 100%;
     padding: $padding*5;
     overflow: hidden;

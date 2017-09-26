@@ -26,7 +26,7 @@ export default class Ribbon extends Component {
             </div>
             <div className='right'>
               <Link to="/">Home</Link>
-              <a href="//medium.com/@kipsearch">Blog</a>
+              <a href="//medium.com/@kipsearch/latest">Blog</a>
               <ScrollLink to="contact" spy={true} smooth={true} offset={0} duration={1500}>Contact</ScrollLink>
             </div>
           </nav>
