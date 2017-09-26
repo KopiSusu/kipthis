@@ -1,10 +1,10 @@
 export const projects = [
   {
     "id": 1,
-    "name": "Slack Shopping",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "name": "Manage Purchasing on Slack",
+    "description": "With Slack, we imagined what the future of work would look like. To us, this meant making tedious tasks like collecting lunch orders and buying stationary a breeze.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/amazon_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -87,10 +87,10 @@ export const projects = [
   },
   {
     "id": 2,
-    "name": "Facebook Shopping",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "name": "E-Commerce on Facebook Messenger",
+    "description": "With a custom emoji search and quiz, we helped users discover and shop new products on Messenger in a playful and imaginative way.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/facebook_shopping/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/slack_shopping/amazon_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -141,10 +141,10 @@ export const projects = [
   },
   {
     "id": 3,
-    "name": "Kip Mint",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "name": "Mint",
+    "description": "We brought fans, friends and fashion from Japan closer with an intimate social shopping experience that rewarded shoppers for being part of the community.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/mint_demo/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/mint_demo/muji_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -196,9 +196,9 @@ export const projects = [
   {
     "id": 4,
     "name": "ChatChat",
-    "description": "ChatChat Offers a full suite of chat commerce and customer service tools. From the first interaction, to the final payment, ChatChat converts conversations into transactions.",
+    "description": "An analytics dashboard that let brands manage their user engagement, ChatChat offered brands an easy tool to convert conversations into real transactions.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/chatchat/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/chatchat/chatchat_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -241,10 +241,10 @@ export const projects = [
   },
   {
     "id": 5,
-    "name": "Kip Character Design",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "name": "Kip the Smart Penguin",
+    "description": "We took complex subject like artificial intelligence and made it more friendly and approachable to general consumers with our penguin persona.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/character_design/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/character_design/kip_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -327,10 +327,10 @@ export const projects = [
   },
   {
     "id": 6,
-    "name": "AICP (MoMA)",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "name": "AICP x MoMA",
+    "description": "To launch AICP’s annual gala at MoMA, we created an interactive map experience that showcase where fine art and commercial advertising collide.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/AICP/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/AICP/AICP_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -374,7 +374,7 @@ export const projects = [
   {
     "id": 7,
     "name": "The Foodworks",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "description": "Foodworks’ mission is to empower food entrepreneurs to build quality products. We helped tell their brand story and build a web presence accessible across all digital media.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/Foodworks/main.png",
     "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
     "fields": [
@@ -419,10 +419,10 @@ export const projects = [
   },
   {
     "id": 8,
-    "name": "Kip Styles App",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "name": "KipStyles",
+    "description": "We built an app and custom search bar from ground up to help last-minute shoppers put together looks and find things they love in stores around them.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/kip_styles/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": ["https://storage.googleapis.com/kip-consulting/kip_styles/apple_logo_white.svg","https://storage.googleapis.com/kip-consulting/kip_styles/android_logo_white.svg"],
     "fields": [
      {
        "type": "image_section",
@@ -458,9 +458,9 @@ export const projects = [
   {
     "id": 9,
     "name": "Bubbli",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
-    "imageSrc": "//storage.googleapis.com/kip-consulting/Bubbli/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "description": "We took the iconic Grand Central Terminal and reimagined how to effortlessly merge digital and physical to provide a delightful interactive map experience for all.",
+    "imageSrc": "https://storage.googleapis.com/kip-consulting/Bubbli/main.png",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/Bubbli/grandcentral_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -512,9 +512,9 @@ export const projects = [
   {
     "id": 10,
     "name": "Information Builders",
-    "description": "The WebFOCUS Performance Management Framework (PMF) from Information Builders is a set of business-level tools that improve the way you run your department or division – or even your entire business.",
+    "description": "We helped IB build an analytics to help businesses measure their performance and pinpoint areas to improve.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/information_builders/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/information_builders/information_builders_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -549,10 +549,10 @@ export const projects = [
   },
   {
     "id": 11,
-    "name": "WANT",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "name": "W.A.N.T.",
+    "description": "With author McKenzie Wark, we designed and created a book cover and layout inspired by the elements of New York and launched a successful Kickstarter.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/vortex_want/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/vortex_want/kickstarter_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
@@ -644,9 +644,9 @@ export const projects = [
   {
     "id": 12,
     "name": "Iron Man",
-    "description": "We want to change the landscape of food from the ground up. To us, this means helping anyone with enough passion and grit to build a food business. Our Mission: Empower our community of food entrepreneurs to start and grow quality brands.",
+    "description": "We designed award winning keyart, packaging and ad campaigns for the first Iron Man movie.",
     "imageSrc": "https://storage.googleapis.com/kip-consulting/ironman/main.png",
-    "logoSrc": "//storage.googleapis.com/kip-consulting/Foodworks/foodworks_logo.svg",
+    "logoSrc": "https://storage.googleapis.com/kip-consulting/ironman/marvel_logo_white.svg",
     "fields": [
      {
        "type": "image_section",
