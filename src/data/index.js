@@ -358,7 +358,7 @@ export const projects = [
   {
     "id": 11,
     "name": "W.A.N.T.",
-    "description": "With author McKenzie Wark, we designed and created a book inspired by the elements of New York and launched a successful Kickstarter.",
+    "description": "With author McKenzie Wark, we designed and created a book inspired by elements of New York and launched a successful Kickstarter.",
     "imageSrc": "//storage.googleapis.com/kip-consulting/vortex_want/main.png",
     "logoSrc": ["https://storage.googleapis.com/kip-consulting/vortex_want/kickstarter_logo_white.svg"],
     "fields": [
