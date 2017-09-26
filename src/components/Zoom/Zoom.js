@@ -12,12 +12,9 @@ export default class Zoom extends Component {
       const { renderField, props: { match : { params } } } = this,
         project = projects.find((p) => p.name.split(' ').join('') === params.projectName);
 
-      console.log(project.id === 0 || !!(project.id && !(project.id%2)))
-
       return (
         <div className='zoom'>
-          <div className={`project ${project.id === 0 || !!(project.id && !(project.id%2)) ? 'even' : ''}`}>
-            <div className='image' style={{backgroundImage: `url(${project.imageSrc})`}}/>
+          <div className='project'>
             <div className='text'>
               <h1>{project.name}</h1>
               <p>{project.description}</p>

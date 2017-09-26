@@ -12,6 +12,7 @@
     .image {
       height: 600px;
       width: 100%;
+      background-size: cover;
     }
 
     .text {
@@ -27,13 +28,13 @@
 
   .project {
     position: relative;
-    display: block;
+    display: table;
     text-decoration: none;
-    height: 582px;
+    height: 502px;
     width: 100%;
-    padding: $padding*10 $padding*5 $padding*5;
+    padding: $padding*10 $padding*10 $padding*5;
     overflow: hidden;
-    background: #333;
+    background: white;
     margin-bottom: 40px;
     z-index: 0;
 
@@ -58,41 +59,21 @@
       }
     }
 
-    .image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0.4;
-      transform: scale(1);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      z-index: 0;
-      @include transition(all 0.33s $materialBezier);
-      @media only screen and (max-width: 600px) {
-        height: 150px;
-        width: 100%;
-        opacity: 1;
-      }
-    }
-
     .text {
-      display: block;
+      display: table-cell;
       position: relative;
+      vertical-align: middle;
       width: 50%;
-      padding: 0 $padding*15 0 $padding*2.5;
+      padding: 0 0 0 $padding*2.5;
       z-index: 2;
+
       @media only screen and (max-width: 600px) {
         padding: 0;
         width: 100%;
       }
 
       * {
-        color: white;
+        color: #555;
         @media only screen and (max-width: 600px) {
           color: #555;
         }

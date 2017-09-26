@@ -114,6 +114,14 @@
       font-size: 18px;
     }
 
+    .image {
+      position: relative;
+      display: inline-block;
+      width: calc(100%/5);
+      height: calc(100% - 100px);
+      background-size: 200px;
+    }
+
     svg {
       position: relative;
       display: inline-block;
