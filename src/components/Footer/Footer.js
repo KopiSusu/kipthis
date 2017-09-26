@@ -14,8 +14,8 @@ export default class Footer extends Component {
             <div className='logo'>
             </div>
             <div className='details'>
-              <h4>Kip San Francisco</h4>
-              <p> Kip@Kipthis.com <span role='img' aria-label='robot'>🤖</span> Kipthis.com</p>
+              <h4>Kip – San Francisco</h4>
+              <p> hello@Kkipthis.com <span role='img' aria-label='robot'>🤖</span> kipthis.com</p>
             </div>
             <div className='media'>
               <h4>Follow Us</h4>
