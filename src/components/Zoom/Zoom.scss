@@ -1,6 +1,15 @@
 @import '../../theme/constants';
 @import '../../theme/animations';
 
+.example-enter {
+  @include animation(scrollInLeft $materialBezier 2.7s);
+}
+
+.example-leave {
+  @include animation(scrollOutRight $materialBezier 2.7s);
+}
+
+
 .zoom {
   position: relative;
   overflow: hidden;
@@ -10,33 +19,26 @@
     @include transition(all 0.33s $materialBezier);
 
     .carosel {
+      position: relative;
       white-space: nowrap;
-      
-      &.move-1 {
-        @include animation(carosel 60s linear infinite);
+      height: 600px;
+
+      @media only screen and (max-width: 600px) {
+        height: 300px;
       }
-      &.move-2 {
-        @include animation(carosel 60s linear infinite);
-      }
-      &.move-3 {
-        @include animation(carosel 60s linear infinite);
-      }
-      &.move-4 {
-        @include animation(carosel 60s linear infinite);
-      }
-      &.move-5 {
-        @include animation(carosel 60s linear infinite);
+
+      &.move {
+        @include transition(all 0.33s $materialBezier);
       }
 
       .image {
+        position: relative;
         display: inline-block;
-        height: 600px;
+        vertical-align: top;
+        height: 100%;
         width: 100%;
         background-size: cover;
-
-        @media only screen and (max-width: 600px) {
-          height: 300px;
-        }
+        @include transition(all 3s $materialBezier);
       }
     }
 
@@ -44,11 +46,16 @@
       text-align: center;
       padding: $padding*7 $padding*5;
 
+      @media only screen and (max-width: 600px) {
+        padding: $padding*5 $padding/2;
+      }
+
       p {
         font-size: 35px;
         line-height: 50px;
         @media only screen and (max-width: 600px) {
-          font-size: 25px;
+          font-size: 15px;
+          line-height: 30px;
         }
       }
     }
@@ -96,7 +103,7 @@
       z-index: 2;
 
       @media only screen and (max-width: 600px) {
-        padding: 0;
+        padding: 0 $padding/2;
         width: 100%;
       }
 
@@ -123,8 +130,8 @@
       p {
         font-size: 20px;
         @media only screen and (max-width: 600px) {
-          font-size: 14px;
-          font-weight: 100;
+          font-size: 15px;
+          font-weight: 300;
           text-align: center;
         }
       }
