@@ -11,12 +11,23 @@
 
     .carosel {
       white-space: nowrap;
-
-      &.move {
-        @include animation(carosel 30s infinite);
-        @include transition(all 0.33s $materialBezier);
-      }
       
+      &.move-1 {
+        @include animation(carosel 60s linear infinite);
+      }
+      &.move-2 {
+        @include animation(carosel 60s linear infinite);
+      }
+      &.move-3 {
+        @include animation(carosel 60s linear infinite);
+      }
+      &.move-4 {
+        @include animation(carosel 60s linear infinite);
+      }
+      &.move-5 {
+        @include animation(carosel 60s linear infinite);
+      }
+
       .image {
         display: inline-block;
         height: 600px;
