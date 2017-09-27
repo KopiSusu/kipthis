@@ -14,7 +14,7 @@ export const projects = [
      },
      {
        "type": "text_section",
-       "description": "With a chatbot that focused solely e-procurement, we helped over 100,000 teams purchase over items and services from Amazon, BloomThat, YPO, Delivery.com and more, generating revenue and up 15% new sales conversion for our partners."
+       "description": "We helped over 100,000 teams purchase over items and services from Amazon, BloomThat, YPO, Delivery.com and more with a chatbot focused solely e-procurement. We generated revenue and up 15% new sales conversion for our partners."
      },
      {
        "type": "image_section",
@@ -26,7 +26,7 @@ export const projects = [
      },
      {
        "type": "text_section",
-       "description": "Websites were tailored only for individual orders, so we challenged ourselves to come up with a unique solution that worked for multiple people in a group ordering at the same time."
+       "description": "Most e-commerce sites are tailored for individual orders, so we challenged ourselves to create a unique solution that worked for multiple people in groups ordering simultaneously."
      },
      {
        "type": "image_section",
@@ -39,7 +39,7 @@ export const projects = [
      },
      {
        "type": "text_section",
-       "description": "The result was a versatile order management system on Slack that helped teams easily purchase in large groups."
+       "description": "The result was a versatile order management system on Slack that helped teams more easily purchase in large groups."
      },
      {
        "type": "quote_section",
