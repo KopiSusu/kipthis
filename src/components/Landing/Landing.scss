@@ -207,6 +207,7 @@
           width: 50%;
           padding: 0 $padding*2.5 0 $padding*15;
         }
+
         .logo {
           float: right;
 
@@ -223,6 +224,29 @@
           &:first-of-type {
             margin: $padding*2 $padding 0 0;
             padding: 0 $padding 0 0;
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      &:nth-of-type(even) {
+        .text {
+          span {
+            display: block;
+            position: absolute;
+            top: -150px;
+            right: 0;
+          }
+        }
+      }
+      &:nth-of-type(odd) {
+        .text {
+          span {
+            display: block;
+            position: absolute;
+            top: -150px;
+            left: 0;
           }
         }
       }
@@ -263,6 +287,8 @@
         width: 100%;
         margin-top: 0px;
       }
+
+
 
       * {
         color: white;
@@ -305,9 +331,10 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
-
       @media only screen and (max-width: 600px) {
-        display: none;
+        display: block;
+        margin: 0;
+        width: 75px;
       }
     }
   }

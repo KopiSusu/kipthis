@@ -21,13 +21,15 @@ export default class Landing extends Component {
                 <div className='text'>
                   <h1>{p.name}</h1>
                   <p>{p.description}</p>
-                  {
-                    p.logoSrc.map((s, i) => (
-                      <div key={i} className='logo'>
-                        <img src={s} alt={s}/>
-                      </div>
-                    ))
-                  }
+                  <span>
+                    {
+                      p.logoSrc.map((s, i) => (
+                        <div key={i} className='logo'>
+                          <img src={s} alt={s}/>
+                        </div>
+                      ))
+                    }
+                  </span>
                 </div>
                 <div className='overlay' />
               </Link>
