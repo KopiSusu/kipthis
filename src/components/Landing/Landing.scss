@@ -209,6 +209,21 @@
         }
         .logo {
           float: right;
+
+          &:first-of-type {
+            margin: $padding*2 0 0 $padding;
+            padding: 0 0 0 $padding;
+          }
+        }
+      }
+      &:nth-of-type(odd) {
+        .logo {
+          float: left;
+
+          &:first-of-type {
+            margin: $padding*2 $padding 0 0;
+            padding: 0 $padding 0 0;
+          }
         }
       }
     }
@@ -290,11 +305,6 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
-
-      &:first-of-type {
-        margin: $padding*2 $padding 0 0;
-        padding: 0 $padding 0 0;
-      }
 
       @media only screen and (max-width: 600px) {
         display: none;
