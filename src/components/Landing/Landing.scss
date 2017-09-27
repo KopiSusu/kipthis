@@ -283,13 +283,18 @@
 
     .logo {
       display: inline-block;
-      height: 38px;
+      vertical-align: top;
       width: 96px;
       margin: $padding*2 $padding 0;
       padding: 0 $padding;
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
+
+      &:first-of-type {
+        margin: $padding*2 $padding 0 0;
+        padding: 0 $padding 0 0;
+      }
 
       @media only screen and (max-width: 600px) {
         display: none;
