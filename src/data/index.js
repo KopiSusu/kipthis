@@ -164,7 +164,7 @@ export const projects = [
      },
      {
        "type": "text_section",
-       "description": "By crafting a strong brand voice and identity, Kip is the first gender neutral A.I that started selling small goods like pins, stickers which was later licensed out to a children’s manufacturer."
+       "description": "By crafting a strong brand voice and identity, the Kip penguin is the first gender neutral A.I. that started selling merchandise and was later licensed out to a children’s clothing manufacturer."
      },
      {
        "type": "image_section",
