@@ -214,6 +214,10 @@
           &:first-of-type {
             margin: $padding*2 0 0 $padding;
             padding: 0 0 0 $padding;
+            width: 60px;
+          }
+          &:nth-of-type(2){
+            width: 80px;
           }
         }
       }
@@ -224,6 +228,10 @@
           &:first-of-type {
             margin: $padding*2 $padding 0 0;
             padding: 0 $padding 0 0;
+            width: 89px;
+          }
+          &:nth-of-type(2){
+            width: 80px;
           }
         }
       }
